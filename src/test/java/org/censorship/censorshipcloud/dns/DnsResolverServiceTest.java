@@ -30,11 +30,5 @@ public class DnsResolverServiceTest {
 
     }
 
-    @Test
-    public void resolveDnsTest()throws Exception{
-        String hostName = "bdnews24.com";
-        List<String> testHostAddressList = Arrays.asList("54.251.166.58","13.250.148.43");
-        List<String> serverHostAddressList = dnsResolverService.resolveDns(hostName);
-        Assert.assertTrue(serverHostAddressList.containsAll(testHostAddressList));
-    }
+
 }
