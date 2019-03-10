@@ -12,4 +12,10 @@ public class HomeController {
     public String home(){
         return "Hello World from Azure!";
     }
+
+
+    @GetMapping("/home")
+    public String homeAnother(){
+        return "Hello World from Azure!";
+    }
 }
