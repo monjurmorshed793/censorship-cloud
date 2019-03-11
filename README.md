@@ -1,1 +1,1 @@
-# censorship-cloud  (cloud based)
+# censorship-cloud  (cloud based resolver)
